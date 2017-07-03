@@ -12,6 +12,15 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
 /* OVERALL ASPECT */
+@font-face{
+    font-family: "Avenir";
+    src: url('fonts/avenir-book.ttf'),
+}
+
+@font-face{
+    font-family: "Modern Sans";
+    src: url('fonts/modern-sans.ttf'),
+}
 
 body {
   background-color: #f2f2f2;
@@ -108,7 +117,7 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: f;
 	border-color: transparent;
 }
 
@@ -176,15 +185,32 @@ a:after {
 	color: white;
 }
 
+#featured h3 {
+  font-size: 30px;
+  font-family: modern sans;
+  padding-top: 17px;
+  padding-bottom: 0px;
+	color: #737373;
+}
+
 /* Skills */
 #skills {
 	background-color: #4e4e4e;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 50px;
-	margin-top: 50px;
+	margin-top: 25px;
+}
+
+#skills h1 {
+	color: white;
+  font-weight: 400;
+  font-size: 100px;
 }
 
 #skills h3 {
+  font-size: 30px;
+  padding-top: 17px;
+  padding-bottom: 0px;
 	color: white;
 }
 
@@ -196,8 +222,16 @@ a:after {
 /* Social Links */
 #social {
 	width: 100%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+#social h2 {
+  padding-left: 50px;
+	padding-right: 50px;
+	font-size: 27px;
+	color: #999999;
+  font-weight: 500;
 }
 
 #social i {
