@@ -59,7 +59,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #74cfae;;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -117,12 +117,14 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: f;
+	background-color: #74cfae;
 	border-color: transparent;
 }
 
 .btn {
-	padding: 10px 10px;
+	padding: 10px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 	margin-bottom: 0;
 	font-size: 20px;
 	border: 2px solid transparent;
@@ -185,13 +187,18 @@ a:after {
 	color: white;
 }
 
+/* Featured */
+
+#featured {
+  padding-bottom: 0px;
+}
+
 #featured h3 {
   font-size: 30px;
   font-family: modern sans;
-  padding-top: 17px;
-  padding-bottom: 0px;
 	color: #737373;
 }
+
 
 /* Skills */
 #skills {
@@ -223,13 +230,13 @@ a:after {
 #social {
 	width: 100%;
 	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 }
 
 #social h2 {
-  padding-left: 50px;
-	padding-right: 50px;
-	font-size: 27px;
+  padding-left: 250px;
+	padding-right: 250px;
+	font-size: 20px;
 	color: #999999;
   font-weight: 500;
 }
@@ -237,6 +244,12 @@ a:after {
 #social i {
 	font-size: 50px;
 	color: #74cfae;
+}
+
+#social h3 {
+  font-size: 30px;
+  font-family: modern sans;
+	color: #737373;
 }
 
 #social .col-md-3:hover {
@@ -261,8 +274,8 @@ a:after {
 
 /* Image Opacity */
 .grid img {
-    opacity: .7;
+    opacity: 1;
 }
 .grid img:hover {
-    opacity: 1;
+    opacity: .7;
 }

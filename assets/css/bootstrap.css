@@ -50,7 +50,6 @@ body {
 }
 
 a {
-  background: transparent;
 }
 
 a:focus {
@@ -59,6 +58,7 @@ a:focus {
 
 a:active,
 a:hover {
+  background: transparent;
   outline: 0;
 }
 
